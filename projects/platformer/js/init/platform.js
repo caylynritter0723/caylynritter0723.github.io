@@ -36,7 +36,7 @@
         platform.create (100, 200)
         platform.create(450, 400)
         platform.create(5, 70)
-        platform.create(600,35)
+        platform.create(600,100)
         
 
         

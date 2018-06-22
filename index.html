@@ -74,6 +74,14 @@
                 text-align: center;
             }
         </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+             $(document).ready(function(){
+                $("button").click(function(){
+                    $("ul.professional-interests").toggle();
+                    });
+                 });
+        </script>
     </head>
     <body>
         <div id="all contents">
@@ -104,6 +112,19 @@
                     
                     </div>
             </main>
-        </div>
+        <!--    <main>-->
+        <!--            <div class="content">-->
+        <!--                <header>Professional Interests</header>-->
+        <!--                <section class="Interests">-->
+        <!--                    <button>Use me to see my professional interests</button>-->
+        <!--                        <ul>-->
+        <!--                            <li>Publising of books</li>-->
+        <!--                            <li>Game Development</li>-->
+        <!--                            <li>Photo Editing</li>-->
+        <!--                        </ul>-->
+        <!--                </section>-->
+        <!--            </div>-->
+        <!--    </main>-->
+        <!--</div>-->
     </body>
 </html>

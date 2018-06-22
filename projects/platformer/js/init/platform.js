@@ -32,13 +32,13 @@
          * asset, giving it a scaleX and scaleY of 2 will stretch it across the 
          * bottom of the game.
          */
-        platform.create(0,550)
-        platform.create (100, 200)
-        platform.create(450, 400)
-        platform.create(5, 70)
-        platform.create(600,100)
+        platform.create(0,550);
+        platform.create (100, 200);
+        platform.create(450, 400);
+        platform.create(5, 70);
+        platform.create(600,100);
         
-
+        
         
         
         
